@@ -1,0 +1,123 @@
+.header{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+z-index: 999;
+position: sticky;
+top: 0;
+
+left: 0;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-logo p{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #626262;
+    gap: 40px;
+    font-size:20px ;
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: ease 0.5;
+    margin-left: 20px;
+   color: red;
+
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.nav-menu li:hover{
+    transform: scale(1.1);
+    color: #088178;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: #76323f;
+    
+}
+.nav-login-cart{
+display: flex;
+align-items: center;
+gap: 45px;
+
+}
+.nav-login-cart button{
+    width: 157px ;
+    height: 50px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    color: #515151;
+    border-radius: 75px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header li a:hover,.header li a.active{
+    color: #088178;  
+  }
+  .header li a.active::after,
+  .header li a:hover::after{
+    content: "";
+    width: 45%;
+    height: 2px;
+    background: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 30px;
+  }
+.nav-login-cart button:hover{
+    background:#088178;
+    color: black;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+   background-color: red;
+    color: white;
+
+}
+
+
+
+
+

@@ -1,0 +1,113 @@
+.contact-header{
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    z-index: 99;
+    margin-left: 100px;
+    margin-top:100px;
+    }
+    .contact-header h2{
+        color: white;
+    }
+    .contact-header p{
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    }
+    .contact-image img{
+        position: relative;
+        width: 100%;
+    height: 50vh;
+    background-size: contain;
+
+    }
+
+
+
+
+    .contact-detail{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        
+      }
+      .contact-detail .detail{
+        width: 40%;
+        margin-left: 40px;
+      }
+      .contact-detail .detail span,
+      .form-detail form span{
+        font-size: 18px;
+      }
+      .contact-detail .detail h2,
+      .form-detail form h2{
+        font-size: 40px;
+        line-height: 35px;
+        padding: 20px 0;
+      }
+      .contact-detail .detail h3{
+        font-size: 25px;
+        padding-bottom:13px ;
+      }
+      .contact-detail .detail li{
+        list-style: none;
+        display: flex;
+        padding: 10px 0;
+      }
+      .contact-detail .detail li i{
+        font-size: 20px;
+        padding-right: 22px;
+      
+      }
+      .contact-detail .detail p{
+        margin: 0;
+        font-size: 20px;
+      }
+      .contact-detail .map{
+        width: 53%;
+        height: 400px;
+      }
+      .contact-detail .map iframe{
+        width: 100%;
+        height: 100%;
+      }
+
+
+
+
+
+
+
+
+      
+.form-detail{
+    display: flex;
+   justify-content: space-between;
+   margin: 30px;
+   padding: 80px;
+   border: 1px solid rgb(82, 67, 67);
+  }
+  .form-detail form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+  .form-detail form input,
+  .form-detail form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 2px solid #0828dd;
+  }
+  
+  .form-detail form button{
+    background-color: #088178;
+    color: #fff;
+  }

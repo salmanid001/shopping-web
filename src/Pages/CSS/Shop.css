@@ -1,0 +1,46 @@
+.page-header{
+position: absolute;
+color: white;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+z-index: 99;
+margin-left: 460px;
+margin-top: 100px;
+}
+.page-header h2{
+    color: white;
+}
+.page-header p{
+color: white;
+padding: 2px;
+font-size: 20px;
+}
+.shop-image img{
+    position: relative; 
+    width: 100%;
+height: 35vh;
+}
+.shop-header h1{
+
+
+color: #171717;
+font-size: 80px;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-top: 80px;
+position: relative;
+display: flex;
+justify-content: center;
+}
+.shop-header hr{
+    width: 400px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+    position: absolute;
+  margin-top: 30px;
+   margin-left: 600px;
+
+}

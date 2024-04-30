@@ -1,0 +1,101 @@
+
+.big-banner .first-banner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top:150px;
+   
+}
+.first-offer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   margin-top: 200px;
+   margin-right: 950px;
+   gap: 10px;
+  z-index: 99;
+}
+.first-image img{
+    position: relative;
+    width: 204vh;
+    height: 400px;
+    margin-top: 100px;
+}
+.first-offer span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 3px;
+
+  }
+  .first-offer span span{
+    color: #05201f;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .first-offer button{
+    font-size: 14px;
+    font-weight:600 ;
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    border: none;
+    margin-top: 30px;
+  }
+  
+.big-banner .second-banner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    
+   
+}
+.second-offer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   margin-top: 200px;
+   margin-right: 950px;
+   gap: 10px;
+  z-index: 99;
+}
+.second-image img{
+    position: relative;
+    width: 204vh;
+    height: 400px;
+    margin-top: 100px;
+}
+.second-offer span{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 3px;
+
+  }
+  .second-offer span span{
+    color: #05201f;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .second-offer button{
+    font-size: 14px;
+    font-weight:600 ;
+    padding: 10px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    border: none;
+    margin-top: 30px;
+  }
